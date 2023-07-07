@@ -1,0 +1,64 @@
+.description {
+    margin:10px;
+    height:30px;
+    width:630px;
+    padding:10px;
+    font-size:18px; 
+    font-weight:bold;
+    }
+    marquee {
+    border-top:1px solid #6ea8fe;
+    border-bottom:1px solid #6ea8fe;
+    font-size:25px;
+    color:#6ea8fe;
+    }
+.visitcount{
+    text-align: end;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Fira+Sans:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Oswald:wght@300&display=swap');
+/* 
+.anuario{
+  font-size: 15vw;
+  color: rgba(167,185,173,255);
+  text-shadow: 5px 7px 7px black;
+  text-align: center;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+}
+.anuario:hover{
+  text-shadow: 2px 4px 10px pink;
+}
+.nombre{
+  font-size: 6vw;
+  font-weight: bold; 
+  color: rgba(167,185,173,255);
+  text-shadow: 2px 3px 4px black;
+  text-align: center;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+}
+.nombre:hover{
+  text-shadow: 2px 4px 10px pink;
+}
+
+.subtitulo{
+  font-size: 5vw;
+  color: rgba(167,185,173,255);
+  text-shadow: 2px 4px 10px black;
+  text-align: center;
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+}
+.subtitulo:hover{
+  text-shadow: 2px 4px 10px pink;
+}
+
+div.textoPagina1{
+  margin-top: 30vh;
+  margin-right: 3vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30vh;
+} */

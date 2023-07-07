@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" href="" content="width=device-width, initial-scale=1.0">
@@ -9,31 +9,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 </head>
-<body data-bs-theme="dark">
+<body>
+  <div>
+    <div class="visitcount">
+      <div id="result"></div>
+      <hr/>
+    </div>
+</div>
+  </div>
     <div>
-        <p>Current Date is <span id='p1'></span>.</p>
-        <script>
-            var date = new Date();
-            var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-            document.getElementById("p1").innerHTML = current_date;
-        </script>
+      <br>
     </div>
     <section id="personalIcon">
         <div class="container">
-            <img class="icon" src="/assets/image/fde8cc149661313.62eb69b3db82a.png" alt="keyicon">
+            <div class="circular--portrait">
+                <img class="icon" src="assets/image/IMG_1120.JPG" alt="keyicon">
+            </div>
         </div>
     </section>
     <section class="down">
-        <h2>I'm a
-            <span class="txt-rotate" data-period="2000" data-rotate="[ &quot;Web Designer.&quot;, &quot;Developer.&quot;, &quot;Photographer.&quot;, &quot;Marketer.&quot;, &quot;Blogger&quot; ]"><span class="wrap">Photograp</span></span>
-            </h2>
-        <div class="mouse">
-        <a href="#" class="mouse-icon">
-        <div class="mouse-wheel">
-            <i class="fa-solid fa-arrow-right fa-rotate-90 fa-2xl" style="color: #f0f0f0;"></i>
-        </a>
-        </div>
+
+    <div class="description">
+      <marquee direction="right" scrollamount="6">"It's time to learn coding." </marquee>
+    </div>
+
     </section>
+    <div class="navtopbar">
     <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -41,21 +42,40 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">I can be...</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#Tab1">a foodie</a></li>
-            <li><a class="dropdown-item" href="#">an artist</a></li>
-            <li><a class="dropdown-item" href="#">a traveller</a></li>
+            <!-- <li><a class="dropdown-item" href="#Tab1">a foodie</a></li> -->
+            <li><a class="dropdown-item" href="#cards-panel-bottom">an artist</a></li>
+            <li><a class="dropdown-item" href="#carouselExampleCaptions">a traveller</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">a developer</a></li>
+            <li><a class="dropdown-item" href="#folder">a developer</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link" href="#">😼😺😾</a>
         </li>
       </ul>
-    
+      <div class="findme">
+        <a href="https://github.com/GITLIN96" target="_blank" class="w3-bar-item w3-button"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/oi-king-so/" target="_blank" class="w3-bar-item w3-button"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto: lindyso0706@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+        <a href="tel:+85265742903" class="w3-bar-item w3-button"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+<!-- <section>
+  <div id="pagina1">
+ 
+    <div>
+      <video id="background-video" autoplay loop muted poster="">
+        <source src="assets/image/food2021.mov" type="video/mp4">
+        </video>
+    <h1 class="anuario">Tasty</h1>
+    <p class="nombre">find your flavor</p>
+    <h2 class="subtitulo">photo in 2023</h2>
+   </div>
+  </div>  
+
+</section> -->
+
+<!-- carousel photo banner -->
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,24 +84,24 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/image/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <img src="assets/image/IMG_5684.JPG" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h3>City</h3>
+              <p>a photograph in Shibuya Tokyo <i>(24-12-2022)</i></p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/image/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <img src="assets/image/IMG_5043.JPG" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h3>Subway</h3>
+              <p>a photograph in Japan <i>(26-12-2022)</i></p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assets/image/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <img src="assets/image/IMG_7226.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h3>Toy Story</h3>
+              <p>a photograph in Disneyland<i>(10-11-2022)</i></p>
             </div>
           </div>
         </div>
@@ -94,35 +114,165 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+
+<!--Drop some skill for developer -->
+<section id="folder">
+  <div class="skills">
+  <h4>My programming languages</h4>
+  <div class="icon-container"> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/html.png"> 
+        </div> 
+    </div> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/css.png"> 
+        </div> 
+    </div> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/js.png"> 
+        </div> 
+    </div> 
+    <div class="text-center"> 
+      <div class="subicon-container" alt="software skill"> 
+          <img alt="ABC" class="subicon" src="assets/image/Reactjs.png"> 
+      </div> 
+  </div> 
+</div>
+</div>
+<div class="skills">
+  <h4>My creative software</h4>
+<div class="icon-container"> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/photoshop.png"> 
+        </div> 
+    </div> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/illustrator.png"> 
+        </div> 
+    </div> 
+    <div class="text-center"> 
+        <div class="subicon-container" alt="software skill"> 
+            <img alt="ABC" class="subicon" src="assets/image/premiere-pro.png"> 
+        </div> 
+    </div> 
+</div>
+</div>
+</section>
+    
+    <!-- working folder -->
+    <section class="foldercontainer" >
+      <div class="folderlist">
+      <div class="subfolder right">
+        <h3>Hi there! </h3>
+        <p>It's great to meet you. I'm a 27-year-old who has a passion for coding. It's wonderful to see people pursuing their interests and developing new skills, especially in such an exciting and constantly evolving field like coding.</p>
+      </div>
+      <div class="subfolder ">
+        <div>
+          <div class="box"><h2 style="color:#fff" class="title">I will show it later</h2><p>Learn More</div>
+          </div>
+          <div class="bbg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="525" height="374" viewBox="0 0 525 374" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M276.663 35L305.5 4C308.5 1 309.9 0 315.5 0H509.5C521.9 0 525 7.33333 525 11V55V72V354C525 365.046 516.046 374 505 374H20C8.9543 374 0 365.046 0 354V55C0 43.9543 8.95431 35 20 35H276.663Z" fill="#ffda6a"/>
+        </svg>
+      </div>
+      </div>
+    </div>
+    <div class="folderlist">
+    <div class="subfolder ">
+      <div>
+        <div class="box"><h2 style="color:#fff" class="title">Still  Doing</h2><p>Learn More</div>
+        </div>
+        <div class="bbg">
+      <svg xmlns="http://www.w3.org/2000/svg" width="525" height="374" viewBox="0 0 525 374" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M276.663 35L305.5 4C308.5 1 309.9 0 315.5 0H509.5C521.9 0 525 7.33333 525 11V55V72V354C525 365.046 516.046 374 505 374H20C8.9543 374 0 365.046 0 354V55C0 43.9543 8.95431 35 20 35H276.663Z" fill="#e685b5"/>
+      </svg>
+    </div>
+      </div>
+
+    <div class="subfolder left">
+      <h3>Love it!</h3>
+      <p>There are countless opportunities to apply your coding skills and make an impact in various industries. Whether I'm interested in web development, software engineering, or data science, there are always new challenges to tackle and problems to solve.
+
+      </p>
+    </div>
+  </div>
+    <div class="folderlist">
+      <div class="subfolder right">
+        <h3>I'm curious...</h3>
+        <p>Feel free to share more about yourself and your interests!</p>
+      </div>
+    <div class="subfolder">
+    <div>
+      <div class="box"><h2 style="color:#fff" class="title">Be a expert</h2><p>Learn More</div>
+      </div>
+      <div class="bbg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="525" height="374" viewBox="0 0 525 374" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M276.663 35L305.5 4C308.5 1 309.9 0 315.5 0H509.5C521.9 0 525 7.33333 525 11V55V72V354C525 365.046 516.046 374 505 374H20C8.9543 374 0 365.046 0 354V55C0 43.9543 8.95431 35 20 35H276.663Z" fill="#629aed"/>
+    </svg>
+  </div>
+  </div>
+
+    </section>
+
+      <br><br><br>
+    <!-- intro my hobby -->
       <section id="cards-panel-bottom">
+        <h4>Art Portfolio</h4>
       <div class="cards-flex-container">
       <div class="card card-container" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/image/7ef319_ea744d17accc408284715386ab5b839a~mv2_d_4032_3024_s_4_2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">LookBook</h5>
+          <p class="card-text">Disply themebook and fiber</p>
+          <a href="#" class="btn btn-primary">Like</a>
         </div>
       </div>
       <div class="card card-container" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/image/7ef319_d7b68603902d42258340ff93d51f9bd7~mv2_d_8465_8465_s_4_2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Collocation</h5>
+          <p class="card-text">Ready-to-Wear Collection</p>
+          <a href="#" class="btn btn-primary">Like</a>
         </div>
       </div>
       <div class="card card-container" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/image/7ef319_578df2f0b9f84b618b59af44f297b95d~mv2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Outfit</h5>
+          <p class="card-text">Outfit photograph</p>
+          <a href="#" class="btn btn-primary">Like</a>
+        </div>
+      </div>
+      <div class="card card-container" style="width: 18rem;">
+        <img src="assets/image/7ef319_1a6304b9e7934381a579ef3f91dc8717~mv2_d_8465_8465_s_4_2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PANTONE®</h5>
+          <p class="card-text">Color Themes</p>
+          <a href="#" class="btn btn-primary">Like</a>
+        </div>
+      </div>
+      <div class="card card-container" style="width: 18rem;">
+        <img src="assets/image/7ef319_7cdb3a87e3814f2fab94e4e8071c2793~mv2_d_8466_8466_s_4_2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Theme</h5>
+          <p class="card-text">a work of art</p>
+          <a href="#" class="btn btn-primary">Like</a>
         </div>
       </div>
     </div>
 </section>
-    <script type="text/javascript" src="./assets/js/script.js"></script>
+<br>
+<br>
+<br>
+<br>
+
+    <script type="text/javascript" src="./js/script.js"></script>
     <script src="https://kit.fontawesome.com/65942e11b2.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

@@ -1,9 +1,56 @@
+body {
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+
+}
+* {
+  font-family: "Source Code Pro";
+}
+p {
+  margin-top: 1rem !important;
+  color: #FFF !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #FFF !important;
+}
+.showtime{
+  text-align: right;
+}
+section{
+  margin-top: 80px;
+}
+
+/* navbar */
+.navtopbar{
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
 .nav.nav.nav-tabs {
     padding-top: 25px;
   }
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.findme{
+  padding-right: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* arrow */
 .icon{
-    border-radius: 50%;
-    max-width: 200px;
+  width: 100%;
+  height: auto;
   }
 .container{
   text-align:-webkit-center;
@@ -12,6 +59,7 @@
   position: relative;
   margin: 20px;
   height: 200px;
+  text-align: -webkit-center;
 }
 .mouse{
   position: absolute;
@@ -23,13 +71,87 @@
   display: flex;
   justify-content: center;
 }
+
+.carousel-indicators button {
+  background-color: #FFF !important;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  filter: inherit !important;
+}
+/* card */
 #cards-panel-bottom .cards-flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+.skills{
+  margin-top: 20px;
+}
+.skills h4{
+  text-align: center;
+  outline-style: auto;
+  padding: 20px;
+}
+.subicon {
+  max-width: 100px;
+}
+.subicon-container {
+padding: 10px;
+}
+.foldercontainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+}
+.folderlist {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  overflow: hidden;
+  min-height: 400px;
+  align-items: center;
+}
+.bbg{
+  position: inherit;
+  width: 100%;
+  
+}
+.box{
+  position: relative;
+  padding-left: 40px;
+}
+.subfolder {
+  padding: 20px;
+  width: calc((100% - 16px) - 592px);
+  position: relative;
+}
+.subfolder svg {
+inline-size: -webkit-fill-available;
+}
+.subfolder.right{
+  text-align: right;
+}
+.subfolder.left{
+  text-align: left;
+}
+#cards-panel-bottom h4{
+  padding-left: 20px;
+}
+/* mobile */
 @media (min-width: 1024px) {
   #cards-panel-bottom .cards-flex-container {
     flex-direction: row;
