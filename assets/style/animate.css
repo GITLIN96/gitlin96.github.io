@@ -19,8 +19,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Oswald:wght@300&display=swap');
 .bounce-in {
     animation: bounce-in 2s ;
-    animation-timeline: scroll();
-    animation-range: entry;
+    visibility: visible;
+    animation-delay: 0.1s;
   }
   @keyframes bounce-in {
     0% {
