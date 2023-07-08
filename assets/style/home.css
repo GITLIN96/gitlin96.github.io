@@ -29,6 +29,9 @@ section{
   position: sticky;
   top: 0;
 }
+#result{
+  padding-right: 50px;
+}
 /* navbar */
 .navtopbar{
   display: flex;
