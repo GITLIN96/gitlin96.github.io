@@ -238,10 +238,13 @@ inline-size: -webkit-fill-available;
   right: 50px;
   z-index: 1000000;
 }
-.fix-button{
+/* .fix-button{
   width: 50px;
   height: 50px;
   padding: 10px;
   background-color: #0d6efd;
   outline: auto;
+} */
+.btn-primary{
+  height: 45px;
 }
