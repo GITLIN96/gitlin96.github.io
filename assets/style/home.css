@@ -36,7 +36,7 @@ section{
   align-items: flex-end;
   margin-bottom: 10px;
   background-color: var(--bs-body-bg);
-  z-index: 10000;
+  z-index: 100000;
 }
 .nav.nav.nav-tabs {
     padding-top: 25px;
