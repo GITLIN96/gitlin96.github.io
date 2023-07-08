@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   color: white;
@@ -68,7 +71,7 @@ section{
   height: 200px;
   text-align: -webkit-center;
 }
-.mouse{
+/* .mouse{
   position: absolute;
   left: 0;
   right: 0;
@@ -77,7 +80,7 @@ section{
 .mouse-wheel{
   display: flex;
   justify-content: center;
-}
+} */
 
 .carousel-indicators button {
   background-color: #FFF !important;
@@ -85,6 +88,9 @@ section{
 .carousel-control-prev-icon,.carousel-control-next-icon {
   filter: inherit !important;
 }
+.carousel-item{
+  width: 100%;
+  }
 /* card */
 #cards-panel-bottom .cards-flex-container {
   display: flex;
