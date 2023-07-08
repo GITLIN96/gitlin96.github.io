@@ -17,7 +17,23 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Fira+Sans:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Oswald:wght@300&display=swap');
-
+.bounce-in {
+    animation: bounce-in 2s ;
+    animation-timeline: scroll();
+    animation-range: entry;
+  }
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+  }
 /* p,h1,h2,h3,h4,h5,h6  {
   animation: bounce-in 2s ease infinite;
 }
