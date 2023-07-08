@@ -17,6 +17,16 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Fira+Sans:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Oswald:wght@300&display=swap');
+
+/* p,h1,h2,h3,h4,h5,h6  {
+  animation: bounce-in 2s ease infinite;
+}
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+} */
+
+
 /* 
 .anuario{
   font-size: 15vw;
